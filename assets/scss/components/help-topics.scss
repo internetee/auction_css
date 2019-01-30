@@ -21,7 +21,7 @@
   &__item {
     display: flex;
     align-items: center;
-    .fa {
+    .icon {
       min-width: 40px;
       text-align: center;
       line-height: 30px;
@@ -30,7 +30,7 @@
       margin-right: 10px;
     }
     &__body {
-      flex-grow: 1;
+      flex-grow: 1; 
       font-size: 14px;
       line-height: 20px;
     }

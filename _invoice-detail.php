@@ -1,7 +1,7 @@
 <?php include('_header.php') ?>
 <div class="main-hero main-hero--small main-hero--green">
   <h1><a href="#" class="back-link">
-      <i class="fa fa-arrow-left"></i>
+      <i class="icon arrow left"></i>
       <span>Tagasi</span>
     </a>Arve nr 3008398</h1>
 </div>
@@ -32,7 +32,7 @@
             </li>
             <li>
               <span class="details-list-02__label">Makse kuupäev:</span>
-              <span class="details-list-02__value"><strong><i class="fa fa-exclamation-triangle"></i><span>Maksmata</span></strong></span>
+              <span class="details-list-02__value"><strong><i class="icon exclamation triangle"></i><span>Maksmata</span></strong></span>
             </li>
             <li>
               <span class="details-list-02__label">Viitenumber:</span>

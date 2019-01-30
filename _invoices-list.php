@@ -1,7 +1,7 @@
 <?php include('_header.php') ?>
 <div class="main-hero main-hero--small main-hero--green">
   <h1><a href="#" class="back-link">
-      <i class="fa fa-arrow-left"></i>
+      <i class="icon arrow left"></i>
       <span>Tagasi</span>
     </a>Arvete ülevaade</h1>
 </div>
@@ -26,12 +26,12 @@
           <td><a href="#"><span class="link__label">Arve nr. 3008399</span></a></td>
           <td>Lumememm OÜ</td>
           <td>21.09.2017</td>
-          <td><strong><i class="fa fa-exclamation-triangle"></i><span>Maksmata</span></strong></td>
+          <td><strong><i class="icon exclamation triangle"></i><span>Maksmata</span></strong></td>
           <td>2,40€</td>
           <td>domeen.ee</td>
-          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="fa fa-credit-card"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="fa fa-download"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="fa fa-envelope"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="icon credit card"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="icon download"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="icon envelope"></i></a></td>
         </tr>
         <tr>
           <td><a href="#"><span class="link__label">Arve nr. 3008399</span></a></td>
@@ -40,9 +40,9 @@
           <td>21.09.2016</td>
           <td>2,40€</td>
           <td>domeen.ee</td>
-          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="fa fa-credit-card"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="fa fa-download"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="fa fa-envelope"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="icon credit card"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="icon download"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="icon envelope"></i></a></td>
         </tr>
         <tr>
           <td><a href="#"><span class="link__label">Arve nr. 3008399</span></a></td>
@@ -51,9 +51,9 @@
           <td>21.09.2016</td>
           <td>2,40€</td>
           <td>domeen.ee</td>
-          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="fa fa-credit-card"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="fa fa-download"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="fa fa-envelope"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="icon credit card"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="icon download"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="icon envelope"></i></a></td>
         </tr>
         <tr>
           <td><a href="#"><span class="link__label">Arve nr. 3008399</span></a></td>
@@ -62,9 +62,9 @@
           <td>21.09.2016</td>
           <td>2,40€</td>
           <td>domeen.ee</td>
-          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="fa fa-credit-card"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="fa fa-download"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="fa fa-envelope"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="icon credit card"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="icon download"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="icon envelope"></i></a></td>
         </tr>
         <tr>
           <td><a href="#"><span class="link__label">Arve nr. 3008399</span></a></td>
@@ -73,9 +73,9 @@
           <td>21.09.2016</td>
           <td>2,40€</td>
           <td>domeen.ee</td>
-          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="fa fa-credit-card"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="fa fa-download"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="fa fa-envelope"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="icon credit card"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="icon download"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="icon envelope"></i></a></td>
         </tr>
         <tr>
           <td><a href="#"><span class="link__label">Arve nr. 3008399</span></a></td>
@@ -84,9 +84,9 @@
           <td>21.09.2016</td>
           <td>2,40€</td>
           <td>domeen.ee</td>
-          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="fa fa-credit-card"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="fa fa-download"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="fa fa-envelope"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="icon credit card"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="icon download"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="icon envelope"></i></a></td>
         </tr>
         <tr>
           <td><a href="#"><span class="link__label">Arve nr. 3008399</span></a></td>
@@ -95,9 +95,9 @@
           <td>21.09.2016</td>
           <td>2,40€</td>
           <td>domeen.ee</td>
-          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="fa fa-credit-card"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="fa fa-download"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="fa fa-envelope"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="icon credit card"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="icon download"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="icon envelope"></i></a></td>
         </tr>
         <tr>
           <td><a href="#"><span class="link__label">Arve nr. 3008399</span></a></td>
@@ -106,9 +106,9 @@
           <td>21.09.2016</td>
           <td>2,40€</td>
           <td>domeen.ee</td>
-          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="fa fa-credit-card"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="fa fa-download"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="fa fa-envelope"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="icon credit card"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="icon download"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="icon envelope"></i></a></td>
         </tr>
         <tr>
           <td><a href="#"><span class="link__label">Arve nr. 3008399</span></a></td>
@@ -117,9 +117,9 @@
           <td>21.09.2016</td>
           <td>2,40€</td>
           <td>domeen.ee</td>
-          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="fa fa-credit-card"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="fa fa-download"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="fa fa-envelope"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="icon credit card"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="icon download"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="icon envelope"></i></a></td>
         </tr>
         <tr>
           <td><a href="#"><span class="link__label">Arve nr. 3008399</span></a></td>
@@ -128,9 +128,9 @@
           <td>21.09.2016</td>
           <td>2,40€</td>
           <td>domeen.ee</td>
-          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="fa fa-credit-card"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="fa fa-download"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="fa fa-envelope"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="icon credit card"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="icon download"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="icon envelope"></i></a></td>
         </tr>
         <tr>
           <td><a href="#"><span class="link__label">Arve nr. 3008399</span></a></td>
@@ -139,9 +139,9 @@
           <td>21.09.2016</td>
           <td>2,40€</td>
           <td>domeen.ee</td>
-          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="fa fa-credit-card"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="fa fa-download"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="fa fa-envelope"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="icon credit card"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="icon download"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="icon envelope"></i></a></td>
         </tr>
         <tr>
           <td><a href="#"><span class="link__label">Arve nr. 3008399</span></a></td>
@@ -150,9 +150,9 @@
           <td>21.09.2016</td>
           <td>2,40€</td>
           <td>domeen.ee</td>
-          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="fa fa-credit-card"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="fa fa-download"></i></a></td>
-          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="fa fa-envelope"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Maksa</span><i class="icon credit card"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Lae alla</span><i class="icon download"></i></a></td>
+          <td class="collapsing"><a href="#"><span class="link__label">Edasta e-postile</span><i class="icon envelope"></i></a></td>
         </tr>
       </tbody>
     </table>

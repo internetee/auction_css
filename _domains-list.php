@@ -12,7 +12,7 @@
     <div class="features-grid-1__items">
       <div class="features-grid-1__item">
         <h3 class="ui icon header">
-          <i class="fa fa-gift"></i>
+          <i class="icon gift"></i>
           <div class="content">
             1. Esita pakkumine,
             <div class="sub header">mida saad muuta ja tühistada oksjoni lõppemiseni. Domeenioksjonid toimuvad pimeoksjoni stiilis, mis tähendab, et keegi teine esitatud pakkumise suurust ei näe. </div>
@@ -21,7 +21,7 @@
       </div>
       <div class="features-grid-1__item">
         <h3 class="ui icon header">
-          <i class="fa fa-stopwatch"></i>
+          <i class="icon stopwatch"></i>
           <div class="content">
             2. oota oksjoni tulemusi
             <div class="sub header">Kui sinu pakkumine oli edukas anname sellest e-posti teel sulle teada.</div>
@@ -30,7 +30,7 @@
       </div>
       <div class="features-grid-1__item">
         <h3 class="ui icon header">
-          <i class="fa fa-credit-card"></i>
+          <i class="icon credit card"></i>
           <div class="content">
             3. Maksa oksjoni tasu,
             <div class="sub header">mille järel saada domeeni registreerimiseks vajaliku koodi.</div>
@@ -73,15 +73,15 @@
         <tbody class="">
           <tr class="">
             <td><strong>lumememm.ee</strong></td>
-            <td class="right aligned"><a href="https://www.we.ee/" target="_blank" rel="noopener noreferrer"><span class="link__label">Vaata</span><span class="fa fa-arrow-right"></span></a></td>
+            <td class="right aligned"><a href="https://www.we.ee/" target="_blank" rel="noopener noreferrer"><span class="link__label">Vaata</span><i class="icon arrow right"></i></a></td>
           </tr>
           <tr class="">
             <td><strong>lumememm.ee</strong></td>
-            <td class="right aligned"><a href="https://www.we.ee/" target="_blank" rel="noopener noreferrer"><span class="link__label">Vaata</span><span class="fa fa-arrow-right"></span></a></td>
+            <td class="right aligned"><a href="https://www.we.ee/" target="_blank" rel="noopener noreferrer"><span class="link__label">Vaata</span><i class="icon arrow right"></i></a></td>
           </tr>
           <tr class="">
             <td><strong>lumememm.ee</strong></td>
-            <td class="right aligned"><a href="https://www.we.ee/" target="_blank" rel="noopener noreferrer"><span class="link__label">Vaata</span><span class="fa fa-arrow-right"></span></a></td>
+            <td class="right aligned"><a href="https://www.we.ee/" target="_blank" rel="noopener noreferrer"><span class="link__label">Vaata</span><i class="icon arrow right"></i></a></td>
           </tr>
         </tbody>
       </table>

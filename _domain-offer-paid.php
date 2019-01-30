@@ -1,7 +1,7 @@
 <?php include('_header.php') ?>
 <div class="main-hero main-hero--small main-hero--green">
   <h1> <a href="#" class="back-link">
-      <i class="fa fa-arrow-left"></i>
+      <i class="icon arrow left"></i>
       <span>Tagasi</span>
     </a>
     lumememm.ee</h1>
@@ -50,7 +50,7 @@
   <div class="u-container">
     <div class="register-key__body">
       <span class="register-key__title">Registreerimiskood</span>
-      <div class="register-key__key"><i class="fa fa-key"></i>#57294494AB</div>
+      <div class="register-key__key"><i class="icon key"></i>#57294494AB</div>
       <div class="register-key__text"><p>Selle koodi abil saate registreerida domeeninime kõikide .ee akredeeritud registripidajate juures. Kood kehtib 14 päeva (<strong>6.12.2018 23:59:59 EET</strong>). Kui koodi pole selleks ajaks kasutatud, see tühistatakse ja domeeninimi läheb tagasi oksjonile. Teil puudub õigus nõuda tagasi enampakkumise tulemusel makstud raha.</p>
       <p>.ee akrediteeritud registripidajate nimekirja leiate siit:</p>
       <a href="https://www.internet.ee/registripidajad/akrediteeritud-registripidajad">https://www.internet.ee/registripidajad/akrediteeritud-registripidajad</a></div>

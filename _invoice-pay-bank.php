@@ -1,7 +1,7 @@
 <?php include('_header.php') ?>
 <div class="main-hero main-hero--small main-hero--green">
   <h1><a href="#" class="back-link">
-      <i class="fa fa-arrow-left"></i>
+      <i class="icon arrow left"></i>
       <span>Tagasi</span>
     </a>Maksa arve</h1>
 </div>
@@ -59,7 +59,7 @@
         </div>
         <div class="payment-methods-01__item">
           <a href="#">
-            <i class="fa fa-credit-card"></i>
+            <i class="icon credit card"></i>
             Maksa krediitkaardiga
           </a>
         </div>

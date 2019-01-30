@@ -1,7 +1,7 @@
 <?php include('_header-registrar.php') ?>
-<div class="main-hero main-hero--small main-hero--orange">
+<div class="main-hero main-hero--orange">
 	<h1>
-	<a href="_registrar-certification.php" class="back-link"><i class="fas fa-arrow-left"></i><span>Tagasi</span></a>
+	<a href="_registrar-certification.php" class="back-link"><i class="icon arrow left"></i><span>Tagasi</span></a>
 	Kordamisküsimused</h1>
 	<p>Et saada registripidajaks pead sertifitseerima Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat.</p>
 </div>

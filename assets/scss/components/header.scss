@@ -186,7 +186,7 @@
       font-weight: 900;
     }
     &.u-active:first-child {
-      background: $green;
+      background: $blue;
     }
     &.u-active:nth-child(2) {
       background: $orange;
@@ -198,7 +198,7 @@
       color: #fff;
       text-decoration: underline;
       &:first-child {
-        background: $green;
+        background: $blue;
       }
       &:nth-child(2) {
         background: $orange;
@@ -219,6 +219,9 @@
 .menu-language {
   padding: 15px 20px;
   margin: 0 auto;
+  &.registrar {
+    color: $orange;
+  }
   &:last-child {
     margin-right: 0;
   }
@@ -239,7 +242,7 @@
         color: $black;
         cursor: pointer;
         &:hover {
-          color: $green;
+          color: $blue;
         }
       }
     }
@@ -249,6 +252,13 @@
   display: flex;
   align-items: stretch;
   border-bottom: 1px solid #EAEBED;
+  &.registrar {
+    a {
+      &:hover {
+        color: $orange;
+      }
+    }
+  }
   a {
     display: flex;
     align-items: center;
@@ -256,7 +266,7 @@
     font-weight: 500;
     color: $black;
     &:hover {
-      color: $green;
+      color: $blue;
     }
     i {
       flex: 0 0 20px;
@@ -287,6 +297,17 @@
   .u-site-search-open & {
     opacity: 0;
     visibility: hidden;
+  }
+  &.registrar {
+    & > ul {
+      & > li {
+        & > a{
+          &:hover {
+            background: $orange;
+          }
+        }
+      }
+    }
   }
   > ul {
     padding: 0;
@@ -409,7 +430,7 @@
     > ul {
       display: flex;
       align-items: flex-start;
-      justify-content: center;
+      // justify-content: center;
       > li {
         position: relative;
         .btn {
@@ -417,7 +438,7 @@
         }
         &:hover {
           > a {
-            background: $green;
+            background: $blue;
           }
           > ul {
             display: block;

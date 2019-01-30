@@ -19,7 +19,7 @@
         <div class="ui labeled input">
           <input type="text">
           <div class="ui transparent label">
-            <i class="fa fa-question-circle" data-content="Tooltip"></i>
+            <i class="icon question circle" data-content="Tooltip"></i>
           </div>
         </div>
         <div class="description">
@@ -290,18 +290,18 @@
         <input type="email">
       </div>
       <div class="field file-upload">
-        <h3><span class="title">Lisa dokument</span><i class="fa fa-question-circle" data-content="Tooltip"></i></h3>
+        <h3><span class="title">Lisa dokument</span><i class="icon question circle" data-content="Tooltip"></i></h3>
         <div class="file-upload__files">
         </div>
         <div class="file-upload__upload">
-          <label for="file-upload"><i class="fa fa-folder-open"></i> <strong>Vali fail arvutist</strong> (max. 8MB)</label>
+          <label for="file-upload"><i class="icon folder open"></i> <strong>Vali fail arvutist</strong> (max. 8MB)</label>
           <input type="file" id="file-upload" multiple hidden>
         </div>
       </div>
       <div class="field tos">
         <h3>Kasutustingimused</h3>
         <div class="tos__body">
-          <i class="fa fa-exclamation-circle" data-content="tooltip"></i>
+          <i class="icon exclamation circle" data-content="tooltip"></i>
           <div class="ui checkbox">
             <input type="checkbox" tabindex="0" class="hidden">
             <label>Kinnitan, et soovin luua kasutajakonto, olen tutvunud ja nõustun oksjonikeskkonna kasutajatingimustega, mis reguleerib kasutaja ja Eesti Interneti SA vahelisi õigussuhteid.</label>
