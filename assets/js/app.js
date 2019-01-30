@@ -6,11 +6,12 @@
       $('.btn-menu').on('click', function (e) {
         e.preventDefault();
         $('body').toggleClass('u-menu-open');
+        // $('.ui.sidebar').sidebar('toggle');
       });
       $('.btn--submenu-toggle').on('click', function (e) {
-        e.preventDefault();
-        $(this).closest('li').toggleClass('u-submenu-open');
+        e.preventDefault();   
         $(this).next('.submenu').slideToggle(200);
+        $(this).parent().toggleClass('u-submenu-open');
       });
     }
     function auth() {

@@ -6,7 +6,7 @@
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  background: url("../../images/hero.jpg") no-repeat 50% 50% / cover;
+  background: url("../../images/hero.png") no-repeat 50% 50% / cover;
   background-blend-mode: overlay;
   box-shadow: 0 0 40px rgba(0,0,0,.2);
   h1 {
@@ -70,10 +70,10 @@
     }
   }
   &--green {
-    background-image: url("../../images/hero2.png");
+    background-image: url("../../images/hero-green.png");
   }
   &--orange {
-    background-image: url("../../images/hero3.png");
+    background-image: url("../../images/hero-orange.png");
   }
   @include min-screen(768px) {
     margin: 0 20px;
