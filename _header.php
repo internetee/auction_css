@@ -14,14 +14,12 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="assets/images/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  
   <link rel="stylesheet" type="text/css" href="dist/main.css">
 </head>
 <body>
   <div class="menu-mobile">
     <button type="button" class="btn btn-menu" data-menu-toggle="">
-      <i class="fas fa-times"></i>
+      <i class="icon times"></i>
     </button>
     <nav class="menu-language">
       <ul class="menu">
@@ -43,7 +41,7 @@
         </li>
         <li class="">
           <a href="/domeenid" class="">Domeenid</a>
-          <button type="button" class="btn btn--submenu-toggle" data-submenu-toggle=""><i class="fas fa-angle-down"></i></button>
+          <button type="button" class="btn btn--submenu-toggle" data-submenu-toggle=""><i class="icon angle down"></i></button>
           <ul class="submenu ">
             <li class="">
               <a href="/domeenid/kuidas-registreerida-ee-domeeni" class="">Kuidas registreerida .ee domeeni?</a>
@@ -73,7 +71,7 @@
         </li>
         <li class="">
           <a href="/domeenivaidlused" class="">Domeenivaidlused</a>
-          <button type="button" class="btn btn--submenu-toggle" data-submenu-toggle=""><i class="fas fa-angle-down"></i></button>
+          <button type="button" class="btn btn--submenu-toggle" data-submenu-toggle=""><i class="icon angle down"></i></button>
           <ul class="submenu ">
             <li class="">
               <a href="/domeenivaidlused/domeenivaidluste-komisjon" class="">Domeenivaidluste Komisjon</a>
@@ -91,7 +89,7 @@
         </li>
         <li class="">
           <a href="/registripidajad" class="">Registripidajad</a>
-          <button type="button" class="btn btn--submenu-toggle" data-submenu-toggle=""><i class="fas fa-angle-down"></i></button>
+          <button type="button" class="btn btn--submenu-toggle" data-submenu-toggle=""><i class="icon angle down"></i></button>
           <ul class="submenu invert">
             <li class="">
               <a href="/registripidajad/akrediteeritud-registripidajad" class="">Akrediteeritud .ee registripidajad</a>
@@ -109,7 +107,7 @@
         </li>
         <li class="">
           <a href="/dnssec" class="">DNSSec</a>
-          <button type="button" class="btn btn--submenu-toggle" data-submenu-toggle=""><i class="fas fa-angle-down"></i></button>
+          <button type="button" class="btn btn--submenu-toggle" data-submenu-toggle=""><i class="icon angle down"></i></button>
           <ul class="submenu invert">
             <li class="">
               <a href="/dnssec/vaata-dnsseci-tutvustavat-videot" class="">Mis on DNSSec? Vaata videot!</a>
@@ -149,22 +147,22 @@
       <ul>
         <li>
           <a href="https://www.facebook.com/EE-748656818569233/" title="Facebook">
-            <i class="fab fa-facebook"></i>
+            <i class="icon facebook"></i>
           </a>
         </li>
         <li>
           <a href="https://twitter.com/Eesti_Internet" title="Twitter">
-            <i class="fab fa-twitter"></i>
+            <i class="icon twitter"></i>
           </a>
         </li>
         <li>
           <a href="https://www.youtube.com/channel/UC7nTB6zIwZYPFarlbKuEPRA" title="Youtube">
-            <i class="fab fa-youtube-square"></i>
+            <i class="icon youtube square"></i>
           </a>
         </li>
         <li>
           <a href="/index.rss" title="RSS">
-            <i class="fas fa-rss-square"></i>
+            <i class="icon rss square"></i>
           </a>
         </li>
       </ul>
