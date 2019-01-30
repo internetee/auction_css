@@ -1,0 +1,163 @@
+.test {
+	background: linear-gradient(to right, $grey2, $grey8);
+	position: relative;
+	font-size: 1.286rem;
+	line-height: 2.143rem;
+	font-weight: 500;
+	min-height: 100vh;
+	.layout {
+		&--container {
+			display: flex;
+			@include max-screen(991px) {
+				flex-direction: column;
+				.layout--left {
+					order: 1;
+					top: -80px;
+					p {
+						color: $black;
+					}
+				}
+				.layout--right {
+					order: 0;
+				}
+			}
+		}
+		&--left {
+			flex: 1;
+			max-width: 265px;
+			margin-right: 40px;
+			position: relative;
+			top: -40px;
+			z-index: 10;
+			p {
+				color: $true-white;
+				margin-bottom: 0;
+				.counter {
+					font-weight: 900;
+				}
+				& + .answer-counter {
+					margin-top: 40px;
+				}
+			}
+			.answer-counter {
+				margin-top: 60px;
+				&--item {
+					&:not(:last-child) {
+						margin-bottom: 10px;
+					}
+					a {
+						color: $black;
+						display: inline-block;
+						transition: all .3s;
+						font-size: 1.143rem;
+					}
+					.circle {
+						display: inline-block;
+						width: 30px;
+						height: 30px;
+						font-size: 1.143rem;
+						margin-right: 10px;
+					}
+					&.current {
+						font-weight: 900;
+					}
+					&.correct {
+						a {
+							color: $green;
+						}
+					}
+					&.wrong {
+						a {
+							color: $orange;
+						}
+					}
+				}
+			}
+		}
+		&--right {
+			flex: 1;
+			position: relative;
+			top: -140px;
+			z-index: 10;
+			
+			&__top {
+				display: flex;
+				justify-content: space-between;
+				padding: 20px 40px;
+				align-items: center;
+				a {
+					color: $true-white;
+					margin-left: auto;
+					text-decoration: underline;
+					margin-bottom: 20px;
+					transition: all .3s;
+					&:hover {
+						color: $orange;
+					}
+				}
+			}
+			&__bottom {
+				background: $true-white;
+				padding: 40px 40px 20px;
+				box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+				h2 {
+					margin-bottom: 40px;	
+					&.false {
+						color: $orange;
+					}		
+					&.correct {
+						color: $green;
+					}	
+				}
+				h3 {
+					margin-bottom: 20px;
+					margin-top: 0;
+				}
+				form {
+					margin-bottom: 40px;
+					.message {
+						font-size: 1rem;
+						line-height: 1.429rem;
+						padding-left: 2.143rem;
+						margin-top: 10px;
+					}
+				}
+				a.button {
+					margin-right: 20px;
+					margin-bottom: 20px;
+				}
+				& > p:last-of-type {
+					margin-bottom: 40px;
+				}
+			}
+			&__time {
+				color: $white;
+				i.clock {
+					display: inline-block;
+					font-size: 1.286rem;
+					line-height: 2.143rem;
+					width: 30px;
+					height: 30px;
+					margin: 0;
+				}
+				span {
+					font-size: 1.714rem;
+					line-height: 2.143rem;
+					font-weight: 900;
+				}
+			}
+			@include max-screen(767px) {
+				top: -100px;
+				&__top {
+					padding: 20px;
+					a {
+						margin-bottom: 0;
+					}
+				}
+				&__bottom {
+					padding: 20px 20px 0;
+				}
+			}
+		}
+	}
+}

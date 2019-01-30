@@ -1,0 +1,59 @@
+.tabs {
+  &.ui.segment {
+    padding: 0;
+  }
+  &__head {
+    display: flex;
+    padding: 20px 40px 0 40px;
+    background: $grey3;
+    &__item {
+      padding: 15px 20px;
+      flex: 1;
+      text-align: center;
+      color: $black;
+      border-radius: 5px 5px 0 0;
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      transition: all 200ms ease;
+      &:hover {
+        color: $black;
+        padding-top: 12px;
+        padding-bottom: 18px;
+      }
+      &.active {
+        background: $white;
+        font-weight: 900;
+      }
+      & + .tabs__head__item {
+        margin-left: 40px;
+      }
+    }
+  }
+  &__content {
+    .tab {
+      padding: 40px;
+    }
+  }
+  @include max-screen(767px) {
+    &__head {
+      padding: 20px;
+      display: block;
+      &__item {
+        display: block;
+        padding: 10px !important;
+        border-radius: 5px;
+        & + .tabs__head__item {
+          margin-left: 0;
+          margin-top: 10px;
+        }
+      }
+    }
+    &__content {
+      .tab {
+        padding: 20px;
+      }
+    }
+  }
+}

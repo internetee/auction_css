@@ -1,0 +1,118 @@
+.login-blocks {
+  margin-top: 80px;
+  margin-bottom: 120px;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -20px -40px -20px;
+  }
+  &__item {
+    padding: 0 20px;
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-bottom: 40px;
+  }
+  &__register {
+    margin-top: 80px;
+    text-align: center;
+    h2 {
+      margin-bottom: 40px;
+      font-weight: 900;
+    }
+    &__buttons {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-right: -.25em;
+      margin-bottom: -.25em;
+      .button {
+        margin-bottom: .25em;
+      }
+    }
+  }
+  @include max-screen(1223px) {
+    &__item {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  @include max-screen(991px) {
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+  @include max-screen(767px) {
+    margin-bottom: 40px;
+    &__register {
+      margin-top: 40px;
+      h2 {
+        font-size: 22px;
+        line-height: 30px;
+      }
+    }
+    &__list {
+      display: block;
+      margin: 0;
+    }
+    &__item {
+      max-width: 100%;
+      padding: 0;
+      margin: 0;
+      & + .login-blocks__item {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+.login-block {
+  height: 100%;
+  font-size: 18px;
+  h3 {
+    line-height: 30px;
+    font-weight: 900;
+  }
+  p {
+    line-height: 30px;
+  }
+  &__login {}
+  &__confirm {
+    display: none;
+    font-size: 14px;
+    &__code {
+      display: block;
+      font-weight: 900;
+      line-height: 30px;
+      font-size: 30px;
+      margin-top: 20px;
+    }
+    p {
+      line-height: 20px;
+    }
+  }
+  .ui {
+    &.form {
+      & > p {
+        margin: 20px 0;
+      }
+    }
+  }
+}
+.register-block {
+  &.ui.segment {
+    margin: 80px auto 120px auto;
+    width: 420px;
+    max-width: 100%;
+  }
+  @include max-screen(991px) {
+    &.ui.segment {
+      margin-top: 40px;
+      margin-bottom: 60px;
+    }
+  }
+  @include max-screen(767px) {
+    &.ui.segment {
+      margin-bottom: 40px;
+    }
+  }
+}

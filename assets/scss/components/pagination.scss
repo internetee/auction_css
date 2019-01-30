@@ -1,0 +1,53 @@
+.ui {
+  &.pagination {
+    &.menu {
+      .item:not(.icon):not(.active) {
+        background: $grey5;
+        &:hover {
+          background: transparent;
+        }
+      }
+      .item {
+        &.icon {
+          i {
+            &.icon {
+              min-width: 20px;
+              text-align: center;
+            }
+          }
+        }
+        &:first-child {
+          margin-right: 35px;
+          i.icon {
+            margin-right: 5px;
+          }
+        }
+        &:last-child {
+          margin-left: 35px;
+          i.icon {
+            margin-left: 5px;
+          }
+        }
+      }
+      @include max-screen(767px) {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        .item {
+          &:first-child {
+            padding-right: 10px;
+          }
+          &:last-child {
+            padding-left: 10px;
+          }
+          &:first-child,
+          &:last-child {
+            flex: 0 0 50%;
+            order: -1;
+            margin: 0 0 20px 0;
+          }
+        }
+      }
+    }
+  }
+}

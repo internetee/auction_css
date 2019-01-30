@@ -1,0 +1,96 @@
+.ui {
+  &.table {
+    thead,
+    tbody {
+      tr {
+        th,
+        td {
+          &:first-child {
+            padding-right: 10px;
+          }
+          &:last-child {
+            padding-left: 10px;
+          }
+          &:not(:first-child):not(:last-child) {
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          i {
+            min-width: 30px;
+            text-align: center;
+            &:first-child {
+              margin-right: 5px;
+            }
+            &:last-child {
+              margin-left: 5px;
+            }
+          }
+          a {
+            display: inline-flex;
+            align-items: center;
+            color: $black;
+            font-weight: 500;
+            font-size: 16px;
+            .link__label {
+              text-decoration: underline;
+            }
+            .fa {
+              min-width: 20px;
+              text-align: center;
+              &:last-child {
+                margin-left: 5px;
+              }
+              &:first-child {
+                margin-right: 5px;
+              }
+            }
+            &:hover {
+              .link__label {
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+    @include max-screen(767px) {
+      &:not(.unstackable) {
+        thead {
+          tr {
+            background: $black;
+            th {
+              background: $black;
+              &:empty {
+                display: none !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.selectable {
+    &.table {
+      tbody {
+        tr {
+          &:hover {
+            background-image: linear-gradient(90deg, $grey2 0%, $grey4 100%) !important;
+            background-repeat: no-repeat !important;
+            background-attachment: fixed !important;
+          }
+        }
+      }
+    }
+  }
+}
+.table-wrap {
+  max-width: 100%;
+  overflow: auto;
+  box-shadow: 0 0 20px rgba($true-black,.1);
+}

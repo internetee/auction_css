@@ -1,0 +1,92 @@
+.info-blocks {
+  padding: 0 50px;
+  .block {
+    padding: 20px;
+    h2 {
+      margin-bottom: 10px;
+      font-size: 30px;
+      line-height: 30px;
+      font-weight: 900;
+    }
+    &--text {
+      text-align: center;
+      .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 140px;
+        margin-bottom: 20px;
+        img {
+          display: block;
+        }
+        i {
+          display: block;
+          text-align: center;
+          font-size: 80px;
+          line-height: 140px;
+          color: $base-orange;
+        }
+      }
+      p {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 25px;
+      }
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+  .page--detail & {
+    .block {
+      &--text {
+        .icon {
+          height: 80px;
+          margin-bottom: 40px;
+          i {
+            line-height: 80px;
+          }
+        }
+      }
+    }
+  }
+  @include screen(768px, 991px, $orientation: false) {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: -20px -20px 0 -20px;
+    .block {
+      flex: 1 1 50%;
+      width: 50%;
+      padding: 40px 20px;
+      background-size: cover;
+      &:first-child {
+        flex: 1 0 100%;
+        width: 100%;
+      }
+    }
+  }
+  @include min-screen(992px) {
+    display: flex;
+    align-items: stretch;
+    margin: -150px 0 0 -50px;
+    .page--detail & {
+      margin: 0 -20px 80px;
+      flex-wrap: wrap;
+      justify-content: center;
+      .block {
+        flex: 0 1 33.3333%;
+        width: 33.3333%;
+        padding: 0 20px 40px;
+      }
+    }
+    .block {
+      flex: 1 1 33.3333%;
+      width: 33.3333%;
+      padding: 190px 0 80px 50px;
+      &--domain-auctions {
+        padding: 190px 40px 40px 50px;
+      }
+    }
+  }
+}

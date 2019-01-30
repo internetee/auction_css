@@ -1,0 +1,33 @@
+.faq-list {
+	padding-left: 30px;
+	margin-bottom: 20px;
+	&--item {
+		font-size: 1.286rem;
+		line-height: 2.143rem;
+		font-weight: 500;
+		position: relative;
+		&:not(:last-child) {
+			margin-bottom: 10px;
+		}
+		&:before {
+			content: '\f054';
+			font-family: 'Icons';
+			font-weight: 900;
+			display: block;
+			width: 30px;
+			height: 30px;
+			color: $grey;
+			position: absolute;
+			font-size: 1rem;
+			line-height: 1.857rem;
+			right: 100%;
+			top: 0;
+			text-align: center;
+		}
+		@include max-screen(767px) {
+			p {
+				margin-bottom: 10px;
+			}
+		}
+	}	
+}

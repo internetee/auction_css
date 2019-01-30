@@ -1,0 +1,22 @@
+.ui {
+  &.big {
+    &.button {
+      padding: 15px 20px;
+      font-size: 16px;
+      font-weight: 900;
+      box-shadow: 0 0 20px 0 rgba($true-black, 0.20), inset 0 -4px 0 0 rgba($true-black, 0.20) !important;
+      line-height: 20px;
+      &.white {
+      	background: $true-white;
+      	color: $black;
+      	&:hover {
+      		background: $grey2;
+      	}
+      }
+      @include max-screen(479px) {
+        font-size: 14px;
+        white-space: nowrap;
+      }
+    }
+  }
+}
