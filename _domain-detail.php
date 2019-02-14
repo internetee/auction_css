@@ -1,5 +1,5 @@
 <?php include('_header.php') ?>
-<div class="main-hero main-hero--small">
+<div class="hero small">
   <h1> <a href="#" class="back-link">
       <i class="icon arrow left"></i>
       <span>Tagasi</span>

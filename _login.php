@@ -1,5 +1,5 @@
 <?php include('_header.php') ?>
-<div class="main-hero">
+<div class="hero">
   <h1>Logi sisse</h1>
   <p>Sisenemine võimalik Eesti riigi ja e-residentide ID-kaardi ja Mobiil-IDga, Smart IDga ning EU EIDAS süsteemiga liitunud riikide elektroonsete isikutuvastusvahenditega.</p>
 </div>

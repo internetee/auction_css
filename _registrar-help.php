@@ -1,5 +1,5 @@
 <?php include('_header-registrar.php') ?>
-<div class="main-hero main-hero--orange">
+<div class="hero orange">
   <h1>Küsi julgelt!</h1>
   <p>All olevatest kategooriates on olemas kõik vajalik info domeenide jne. kohta. Samuti saad kasutada otsingut kui tahad midagi spetsiifilist leida. Kui kumbki neist ei aita võid meiega ühendust võtta.</p>
   <form class="ui form form-search">

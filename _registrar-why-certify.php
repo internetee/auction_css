@@ -1,5 +1,5 @@
 <?php include('_header-registrar.php') ?>
-<div class="main-hero main-hero--orange">
+<div class="hero orange">
   <h1>
   	<a href="_registrar-certification.php" class="back-link"><i class="icon arrow left"></i><span>Tagasi</span></a>
 	  Mida teadma peaksin?

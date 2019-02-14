@@ -1,13 +1,13 @@
 <?php include('_header.php') ?>
-<div class="main-hero main-hero--small main-hero--green">
+<div class="hero small green">
   <h1><a href="#" class="back-link">
       <i class="icon arrow left"></i>
       <span>Tagasi</span>
     </a>Arvete ülevaade</h1>
 </div>
-<div class="top-message top-message--large top-message--success">
+<div class="message large success">
   <div class="u-container">
-    <span class="top-message__title">Arve on tasutud. Makse laekumise järel saadame sulle domeeni registrerimiseks vajaliku koodi e-posti teel.</span>
+    <span class="title">Arve on tasutud. Makse laekumise järel saadame sulle domeeni registrerimiseks vajaliku koodi e-posti teel.</span>
   </div>
 </div>
 <div class="invoices-list">

@@ -1,14 +1,14 @@
 <?php include('_header.php') ?>
-<div class="main-hero main-hero--small main-hero--green">
+<div class="hero small green">
   <h1> <a href="#" class="back-link">
       <i class="icon arrow left"></i>
       <span>Tagasi</span>
     </a>
     lumememm.ee</h1>
 </div>
-<div class="top-message top-message--success">
+<div class="message success">
   <div class="u-container">
-    <span class="top-message__title">Pakkumine tühistatud</span>
+    <span class="title">Pakkumine tühistatud</span>
   </div>
 </div>
 <div class="u-container">

@@ -1,5 +1,5 @@
 <?php include('_header.php') ?>
-<div class="main-hero main-hero--small">
+<div class="hero small">
   <h1>Domeenioksjonid</h1>
 </div>
 <div class="features-grid-1">

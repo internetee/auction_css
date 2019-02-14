@@ -1,21 +1,21 @@
-.top-message {
+.message {
   padding-top: 80px;
   padding-bottom: 40px;
   margin-top: -40px;
   text-align: center;
   margin-bottom: 80px;
-  &__title {
+  .title {
     display: block;
     font-weight: 900;
     font-size: 30px;
     line-height: 30px;
   }
-  &--large {
+  &.large {
     padding-top: 120px;
     padding-bottom: 80px;
     margin-bottom: -40px;
   }
-  &--success {
+  &.success {
     background: $green;
     color: $white;
   }

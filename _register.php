@@ -1,5 +1,5 @@
 <?php include('_header.php') ?>
-<div class="main-hero">
+<div class="hero">
   <h1>Registreeri</h1>
   <p>Access currently available only to Estonian citizens and e-residents with Estonian ID-card or Mobile-ID.</p>
 </div>
