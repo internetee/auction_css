@@ -1,8 +1,8 @@
 </main>
-<footer class="footer">
-  <div class="top">
-    <a class="logo" href="/et"> <img src="assets/images/eis-logo-white.svg" alt="Eesti Interneti SA"></a>
-    <div class="contacts">
+<footer class="site-footer">
+  <div class="footer-top">
+    <a class="footer-logo" href="/et"> <img src="assets/images/eis-logo-white.svg" alt="Eesti Interneti SA"></a>
+    <div class="footer-contacts">
       <div class="address">
         <h3>Eesti interneti Sihtasutus</h3>
       </div>
@@ -12,8 +12,8 @@
       </ul>
     </div>
   </div>
-  <div class="bottom">
-    <nav class="menu footer">
+  <div class="footer-bottom">
+    <nav class="menu-footer">
       <div class="column">
         <h3>Leia kiirelt</h3>
         <ul>
@@ -40,7 +40,7 @@
         </ul>
       </div>
     </nav>
-    <nav class="menu social">
+    <nav class="menu-social">
       <h3>Sotsiaalmeedia</h3>
       <ul>
         <li><a href="https://www.facebook.com/EE-748656818569233/" title="Facebook"><i aria-hidden="true" class="facebook icon"></i></a></li>
