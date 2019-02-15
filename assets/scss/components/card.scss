@@ -1,0 +1,19 @@
+.ui.card {
+	margin: 0 20px;
+	max-width: 25%;
+	&.raised {
+		box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
+	}
+	.header {
+		h3 {
+			margin-bottom: 1.429rem;
+			line-height: 30px;
+		}
+	}
+	.description {
+		p {
+			margin: 1.429rem 0;
+			font-size: 1.28571429rem;
+		}
+	}
+}
