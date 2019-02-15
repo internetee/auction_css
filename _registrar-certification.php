@@ -1,5 +1,5 @@
 <?php include('_header-registrar.php') ?>
-<div class="hero orange">
+<div class="main-hero orange">
   <h1>Sertifitseerimine</h1> 
   <p>Et saada registripidajaks pead sertifitseerima Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat.</p>
 </div>

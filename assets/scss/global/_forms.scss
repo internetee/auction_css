@@ -57,20 +57,6 @@
           }
         }
       }
-
-      &--left {
-        .form-filter {
-
-          &--buttons,
-          &--actions {
-            width: auto;
-          }
-        }
-
-        .search-field {
-          margin-left: 40px;
-        }
-      }
     }
 
     .fields {
@@ -695,3 +681,7 @@
     }
   }
 }
+
+
+
+

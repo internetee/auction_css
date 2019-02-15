@@ -19,7 +19,7 @@
 <body>
   <div class="app-wrapper test">
     <main class="layout-main" role="main">
-      <div class="hero smaller orange test"></div>
+      <div class="main-hero smaller orange test"></div>
       <div class="u-container">
         <div class="layout--container">
           <div class="layout--left">          

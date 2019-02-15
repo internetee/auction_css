@@ -245,14 +245,6 @@ strong {
 .u-container {
   @include container;
 }
-.content {
-  padding: 70px 0 80px;
-  &.center {     
-    display: flex;
-    justify-content: center;
-  }
-}
-
 .loading {
   padding: 80px 0;
   .ui.loader {

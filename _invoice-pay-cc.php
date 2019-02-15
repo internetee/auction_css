@@ -1,9 +1,10 @@
 <?php include('_header.php') ?>
-<div class="hero small green">
-  <h1><a href="#" class="back-link">
-      <i class="icon arrow left"></i>
-      <span>Tagasi</span>
-    </a>Maksa arve</h1>
+<div class="main-hero small green">
+  <h1>Maksa arve</h1>
+  <a href="#" class="back-link">
+    <i class="icon arrow left"></i>
+    <span>Tagasi</span>
+  </a>
 </div>
 <div class="invoice-overview">
   <div class="u-container">

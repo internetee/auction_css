@@ -1,49 +1,43 @@
 <?php include('_header.php') ?>
-<div class="hero small green">
+<div class="main-hero green">
   <h1>Domeenioksjonid</h1>
 </div>
-<div class="features-grid-1 features-grid-1--green">
-  <div class="features-grid-1__overview">
+<div class="page">
+  <div class="page--hero">
+    <div class="page--hero__overview">
+      <div class="u-container">
+        <p>Domeene oksjonil <strong>38</strong>.</p>
+      </div>
+    </div>
     <div class="u-container">
-      <span class="features-grid-1__overview__title">Domeene oksjonil <strong>38</strong>.</span>
-    </div>
-  </div>
-  <div class="u-container">
-    <div class="features-grid-1__items">
-      <div class="features-grid-1__item">
-        <h3 class="ui icon header">
-          <i class="icon gift"></i>
-          <div class="content">
+      <div class="ui grid centered stackable">
+        <div class="five wide column aligned">
+          <h3 class="ui icon header">
+            <i class="icon gift"></i>
             1. Esita pakkumine,
-            <div class="sub header">mida saad muuta ja tühistada oksjoni lõppemiseni. Domeenioksjonid toimuvad pimeoksjoni stiilis, mis tähendab, et keegi teine esitatud pakkumise suurust ei näe. </div>
-          </div>
-        </h3>
-      </div>
-      <div class="features-grid-1__item">
-        <h3 class="ui icon header">
-          <i class="icon stopwatch"></i>
-          <div class="content">
+          </h3>
+          <p>mida saad muuta ja tühistada oksjoni lõppemiseni. Domeenioksjonid toimuvad pimeoksjoni stiilis, mis tähendab, et keegi teine esitatud pakkumise suurust ei näe.</p>
+        </div>
+        <div class="five wide column aligned">
+          <h3 class="ui icon header">
+            <i class="icon stopwatch"></i>
             2. oota oksjoni tulemusi
-            <div class="sub header">Kui sinu pakkumine oli edukas anname sellest e-posti teel sulle teada.</div>
-          </div>
-        </h3>
-      </div>
-      <div class="features-grid-1__item">
-        <h3 class="ui icon header">
-          <i class="icon credit card"></i>
-          <div class="content">
+          </h3>
+          <p>Kui sinu pakkumine oli edukas anname sellest e-posti teel sulle teada.</p>
+        </div>
+        <div class="five wide column aligned">
+          <h3 class="ui icon header">
+            <i class="icon credit card"></i>
             3. Maksa oksjoni tasu,
-            <div class="sub header">mille järel saada domeeni registreerimiseks vajaliku koodi.</div>
-          </div>
-        </h3>
+          </h3>
+          <p>mille järel saada domeeni registreerimiseks vajaliku koodi.</p>
+        </div>
       </div>
-    </div>
-    <div class="features-grid-1__text">
-      <p>Tutvu ka oksjonikeskkonna <a href="#">kasutajatingimustega</a> ja loe detailsemalt <a href="#">oksjoniprotsessist</a>.</p>
+      <div class="page--hero__text">
+        <p>Tutvu ka oksjonikeskkonna <a href="#">kasutajatingimustega</a> ja loe detailsemalt <a href="#">oksjoniprotsessist</a>.</p>
+      </div>
     </div>
   </div>
-</div>
-<div class="domains-list--wrap">
   <div class="page--header">
     <div class="u-container">
       <form class="ui form form-filter">
@@ -61,63 +55,124 @@
       </form>
     </div>
   </div>
-  <div class="u-container">
-    <div class="domains-grid-mine">
-      <div class="domains-grid-mine__grid">
-        <div class="domains-grid-mine__item">
-          <a href="#">
-            <span class="domains-grid-mine__item__domain">
-              kinnisvara.ee
-            </span>
-            <div class="domains-grid-mine__item__details">
-              <span class="domains-grid-mine__item__details__title">Minu pakkumine</span>
-              <span class="domains-grid-mine__item__details__value">30€</span>
-            </div>
+  <div class="domains-grid">
+    <div class="domains-grid--item u-blue">
+      <div class="container">
+        <div class="content">
+          <a class="link" href="#">
+            <h2>kinnisvara.ee</h2>
           </a>
+          <div class="data">
+            <p>
+              Minu pakkumine
+              <strong>30€</strong>
+            </p>
+          </div>
         </div>
-        <div class="domains-grid-mine__item">
-          <a href="#">
-            <span class="domains-grid-mine__item__domain">
-              kinnisvara.ee
-            </span>
-            <div class="domains-grid-mine__item__details">
-              <span class="domains-grid-mine__item__details__title">Minu pakkumine</span>
-              <span class="domains-grid-mine__item__details__value">30€</span>
-            </div>
+      </div>
+    </div>
+    <div class="domains-grid--item u-blue">
+      <div class="container">
+        <div class="content">
+          <a class="link" href="#">
+            <h2>kinnisvara.ee</h2>
           </a>
+          <div class="data">
+            <p>
+              Minu pakkumine
+              <strong>30€</strong>
+            </p>
+          </div>
         </div>
-        <div class="domains-grid-mine__item">
-          <a href="#">
-            <span class="domains-grid-mine__item__domain">
-              kinnisvara.ee
-            </span>
-            <div class="domains-grid-mine__item__details">
-              <span class="domains-grid-mine__item__details__title">Minu pakkumine</span>
-              <span class="domains-grid-mine__item__details__value">30€</span>
-            </div>
+      </div>
+    </div>
+    <div class="domains-grid--item u-blue">
+      <div class="container">
+        <div class="content">
+          <a class="link" href="#">
+            <h2>kinnisvara.ee</h2>
           </a>
+          <div class="data">
+            <p>
+              Minu pakkumine
+              <strong>30€</strong>
+            </p>
+          </div>
         </div>
-        <div class="domains-grid-mine__item">
-          <a href="#">
-            <span class="domains-grid-mine__item__domain">
-              kinnisvara.ee
-            </span>
-            <div class="domains-grid-mine__item__details">
-              <span class="domains-grid-mine__item__details__title">Minu pakkumine</span>
-              <span class="domains-grid-mine__item__details__value">30€</span>
-            </div>
+      </div>
+    </div>
+    <div class="domains-grid--item u-blue">
+      <div class="container">
+        <div class="content">
+          <a class="link" href="#">
+            <h2>kinnisvara.ee</h2>
           </a>
+          <div class="data">
+            <p>
+              Minu pakkumine
+              <strong>30€</strong>
+            </p>
+          </div>
         </div>
-        <div class="domains-grid-mine__item">
-          <a href="#">
-            <span class="domains-grid-mine__item__domain">
-              kinnisvara.ee
-            </span>
-            <div class="domains-grid-mine__item__details">
-              <span class="domains-grid-mine__item__details__title">Minu pakkumine</span>
-              <span class="domains-grid-mine__item__details__value">30€</span>
-            </div>
+      </div>
+    </div>
+    <div class="domains-grid--item u-blue">
+      <div class="container">
+        <div class="content">
+          <a class="link" href="#">
+            <h2>kinnisvara.ee</h2>
           </a>
+          <div class="data">
+            <p>
+              Minu pakkumine
+              <strong>30€</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="domains-grid--item u-blue">
+      <div class="container">
+        <div class="content">
+          <a class="link" href="#">
+            <h2>kinnisvara.ee</h2>
+          </a>
+          <div class="data">
+            <p>
+              Minu pakkumine
+              <strong>30€</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="domains-grid--item u-blue">
+      <div class="container">
+        <div class="content">
+          <a class="link" href="#">
+            <h2>kinnisvara.ee</h2>
+          </a>
+          <div class="data">
+            <p>
+              Minu pakkumine
+              <strong>30€</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="domains-grid--item u-blue">
+      <div class="container">
+        <div class="content">
+          <a class="link" href="#">
+            <h2>kinnisvara.ee</h2>
+          </a>
+          <div class="data">
+            <p>
+              Minu pakkumine
+              <strong>30€</strong>
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -1,9 +1,10 @@
 <?php include('_header.php') ?>
-<div class="hero small green">
-  <h1><a href="#" class="back-link">
-      <i class="icon arrow left"></i>
-      <span>Tagasi</span>
-    </a>Arvete ülevaade</h1>
+<div class="main-hero small green">
+  <h1>Arvete ülevaade</h1>
+  <a href="#" class="back-link">
+    <i class="icon arrow left"></i>
+    <span>Tagasi</span>
+  </a>
 </div>
 <div class="message large success">
   <div class="u-container">

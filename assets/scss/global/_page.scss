@@ -1,5 +1,66 @@
 .page {
   padding-bottom: 20px;
+  &--hero {
+    background: $blue url("../../images/html-pattern2.png") no-repeat calc(((100% + 720px) - 1340px) / 2 + 110px) -86px / 720px auto;
+    margin-top: -40px;
+    padding: 20px 0 40px;
+    text-align: center;
+    color: $true-white;
+    .column {
+      text-align: center;
+      p {
+        margin-top: 10px;
+      }
+    }
+    &__overview {
+      background: $blue;
+      box-shadow: 0 0 40px 0 rgba($true-black, 0.20);
+      text-align: center;
+      margin: 0 20px 20px;
+      padding: 20px 0;
+      position: relative;
+      z-index: 20;
+      p {
+        display: block;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: $grey7;
+        
+        strong {
+          color: $true-white;
+        }
+      }
+    }
+    .ui.icon.header {
+      display: block;
+      margin: 0;
+      line-height: 30px;
+      color: $true-white;
+    }
+    &__text {
+      font-weight: 500;
+      margin-top: 20px;
+      font-size: 18px;
+      p {
+        line-height: 30px;
+      }
+      a {
+        color: $true-white;
+        text-decoration: underline;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+    &.green {
+      background: $green;
+      background: $green url("../../images/html-pattern2.png") no-repeat calc(((100% + 720px) - 1340px) / 2 + 110px) -86px / 720px auto;
+      .page--hero__overview {
+        background: $green;
+      }
+    }
+  }
   &--header {
     padding: 40px 20px;
     margin: -20px 0;
@@ -31,17 +92,22 @@
     }
   }
   &--content {
-    padding: 0 10px;
+    padding: 20px 0;
+    &:last-child {
+      padding-bottom: 0;
+    }
   }
   &--block {
     background: #fff;
     padding: 20px;
-    &:nth-child(odd) {
+    &:nth-child(odd),
+    &:last-child {
       @include gradient-gray(right);
     }
     &--header {
       font-size: 14px;
       line-height: 20px;
+      text-align: center;
       h2 {
         font-size: 24px;
         line-height: 25px;
@@ -52,6 +118,22 @@
           vertical-align: middle;
           margin: 0 0 0 10px;
         }
+      }
+    }
+    h1 {
+      font-weight: 500;
+      margin: 2.857rem 0;
+    }
+    p {
+      margin-top: 10px;
+      font-size: 16px;
+      line-height: 25px;
+    }
+    .ui.icon.header {
+      display: block;
+      text-align: left;
+      .icon {
+        text-align: left;
       }
     }
   }
@@ -75,6 +157,16 @@
   }
   @include min-screen(768px) {
     padding-bottom: 40px;
+    &--hero {
+      &__overview {
+        padding: 25px 0;
+        margin: 0 90px 40px 90px;
+        p {
+          font-size: 24px;
+          line-height: 30px;
+        }
+      }
+    }
     &--header {
       padding: 60px 40px;
       &--text {
@@ -92,7 +184,7 @@
       }
     }
     &--content {
-      padding: 0 20px;
+      padding: 40px 0;
     }
     &--message.ui {
       padding: 80px 20px;
@@ -100,10 +192,17 @@
     }
     &--block {
       padding: 40px;
+      &:last-child {
+        padding-bottom: 80px;
+        margin-bottom: -80px;
+      }
       &--header {
         margin-bottom: 40px;
         font-size: 1.286em;
         line-height: 2.143em;
+        &:last-child {
+          margin-bottom: 0;
+        }
         h2 {
           font-size: 30px;
           line-height: 30px;
@@ -116,6 +215,13 @@
   }
   @include min-screen(992px) {
     padding-bottom: 80px;
+    &--hero {
+      padding-bottom: 80px;
+      &__overview {
+        margin-left: 60px;
+        margin-right: 60px;
+      }
+    }
   }
   @include min-screen(1224px) {
     padding-bottom: 120px;
@@ -124,13 +230,18 @@
       padding: 80px 50px;
     }
     &--content {
-      padding: 0 50px;
+      padding: 80px 0;
     }
     &--block {
-      padding: 40px 50px;
+      padding: 80px 50px;
+      &:last-child {
+        padding-bottom: 160px;
+        margin-bottom: -160px;
+      }
     }
   }
 }
+
 .paginator {
   margin-top: 20px;
   .ui.pagination {
@@ -161,12 +272,6 @@
   }
   .form {
     margin: 20px 0 0 auto;
-    .inline {
-      &.field > .selection.dropdown,
-      &.fields .field > .selection.dropdown {
-        min-width: 100px;
-      }
-    }
   }
   @include max-screen(767px) {
     padding: 0 20px;

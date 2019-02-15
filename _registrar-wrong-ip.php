@@ -1,5 +1,5 @@
 <?php include('_header-registrar.php') ?>
-<div class="hero orange">
+<div class="main-hero orange">
   <h1>Ligipääs saadaval ainult registripidajatele!</h1> 
 </div>
 <div class="u-container">

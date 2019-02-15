@@ -9,99 +9,93 @@
     margin-bottom: 40px;
   }
 }
-.invoice-detail {
-  margin-bottom: 120px;
-  &__invoice {
-    width: 880px;
-    max-width: 100%;
-    margin: 0 auto;
-    background: $white;
-    box-shadow: 0 0 20px 0 rgba($black, 0.10);
-    min-height: 1240px;
-    display: flex;
-    flex-direction: column;
-    &__header {
-      padding: 40px 40px 80px 40px;
-    }
-    .ui {
-      &.table {
-        box-shadow: none;
-        margin: 0;
-        thead {
-          th {
-            background: $grey3;
-            color: $black;
-            border-bottom: $grey3;
-          }
+.invoice {
+  .card {
+    height: 1024px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .ui {
+    &.table {
+      box-shadow: none;
+      margin: 0;
+      flex-grow: 999;
+      tr,
+      tr:last-child {
+        td:last-child,
+        th:last-child {
+          padding-right: 40px;
         }
-        tbody {
-          tr {
-            td {
-              p {
-                line-height: 20px;
-                margin-bottom: 10px;
-                &:last-child {
-                  margin-bottom: 0;
-                }
+      }
+      thead {
+        th {
+          background: $grey3;
+          color: $black;
+          border-bottom: $grey3;
+          font-size: 16px;
+        }
+      }
+      tbody {
+        tr {
+          td {
+            font-size: 18px;
+            p {
+              line-height: 20px;
+              margin-bottom: 10px;
+              &:last-child {
+                margin-bottom: 0;
               }
             }
           }
         }
       }
-    }
-    &__footer {
-      display: flex;
-      padding: 40px;
-      background-image: linear-gradient(90deg, $grey2 0%, $grey4 100%);
-      margin-top: auto;
-      & > * + * {
-        margin-left: 40px;
-      }
-      &__logo {
-        align-self: center;
-        svg {
-          display: block;
+      &.very.basic {
+        tr,
+        tr:last-child {
+          td,
+          th {
+            font-size: 18px;
+            line-height: 30px;
+            padding: 0 20px 0 0;
+            border: 0;
+          }
+          td:first-child,
+          th:first-child {
+            width: 220px;
+          }
+          td:last-child,
+          th:last-child {
+            padding-right: 0;
+          }
         }
       }
-      &__text {
-        flex: 1;
-      }
     }
-    @media all and (-ms-high-contrast:none) {
-      min-height: 0;
-    }
+  }
+  .footer {
+    display: flex;
+    padding: 40px;
+    background-image: linear-gradient(90deg, $grey2 0%, $grey4 100%);
+    margin-top: auto;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  @media all and (-ms-high-contrast:none) {
+    min-height: 0;
   }
   @include max-screen(991px) {
-    margin-bottom: 60px;
-    &__invoice {
-      min-height: 0;
-      &__header {
-        padding: 40px;
-      }
-    }
+    min-height: 0;
   }
   @include max-screen(767px) {
-    margin-bottom: 40px;
-    &__invoice {
-      &__header,
-      &__footer {
-        padding: 20px;
-      }
-      &__footer {
-        display: block;
-        & > * + * {
-          margin-left: 0;
-          margin-top: 20px;
-        }
-      }
-      .ui.table {
-        &:not(.unstackable) {
-          thead {
-            tr {
+    .footer {
+      padding: 20px;
+    }
+    .ui.table {
+      &:not(.unstackable) {
+        thead {
+          tr {
+            background: $grey3;
+            th {
               background: $grey3;
-              th {
-                background: $grey3;
-              }
             }
           }
         }

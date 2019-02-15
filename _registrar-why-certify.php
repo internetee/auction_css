@@ -1,9 +1,9 @@
 <?php include('_header-registrar.php') ?>
-<div class="hero orange">
+<div class="main-hero orange">
   <h1>
-  	<a href="_registrar-certification.php" class="back-link"><i class="icon arrow left"></i><span>Tagasi</span></a>
 	  Mida teadma peaksin?
-	</h1> 
+	</h1>
+  <a href="_registrar-certification.php" class="back-link"><i class="icon arrow left"></i><span>Tagasi</span></a>
 </div>
 <div class="u-container">
 	<div class="accordion accordion--alt">
