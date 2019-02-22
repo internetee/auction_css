@@ -34,108 +34,11 @@
         </li>
       </ul>
     </nav>
-    <nav class="menu-main js-menu-main">
-      <ul class="menu">
-        <li class="">
-          <a href="/abi-ja-info" class="">Abi &amp; info</a>
-        </li>
-        <li class="">
-          <a href="/domeenid" class="">Domeenid</a>
-          <button type="button" class="btn btn--submenu-toggle" data-submenu-toggle=""><i class="icon angle down"></i></button>
-          <ul class="submenu ">
-            <li class="">
-              <a href="/domeenid/kuidas-registreerida-ee-domeeni" class="">Kuidas registreerida .ee domeeni?</a>
-            </li>
-            <li class="">
-              <a href="/domeenid/ee-domeenireeglid" class="">.ee Domeenireeglid</a>
-            </li>
-            <li class="">
-              <a href="/domeenid/eis-i-isikuandmete-kasutamise-alused" class="">EIS-i isikuandmete kasutamise alused</a>
-            </li>
-            <li class="">
-              <a href="/domeenid/whois-teenuse-kasutajatingimused" class="">WHOIS-teenuse kasutajatingimused </a>
-            </li>
-            <li class="">
-              <a href="/domeenid/ulddomeenide-reeglid" class="">Ülddomeenid ja nende alla Alamdomeenide registreerimise kord</a>
-            </li>
-            <li class="">
-              <a href="/domeenid/reserveeritud-domeenide-nimekiri-ja-registreerimise-eritingimused" class="">Reserveeritud domeenide nimekiri ja registreerimise eritingimused</a>
-            </li>
-            <li class="">
-              <a href="/domeenid/blokeeritud-domeenide-nimekiri" class="">Blokeeritud domeenide nimekiri</a>
-            </li>
-            <li class="">
-              <a href="/domeenid/domeenide-oksjonikeskkonna-kasutajatingimused" class="">Domeenide oksjonikeskkonna kasutajatingimused</a>
-            </li>
-          </ul>
-        </li>
-        <li class="">
-          <a href="/domeenivaidlused" class="">Domeenivaidlused</a>
-          <button type="button" class="btn btn--submenu-toggle" data-submenu-toggle=""><i class="icon angle down"></i></button>
-          <ul class="submenu ">
-            <li class="">
-              <a href="/domeenivaidlused/domeenivaidluste-komisjon" class="">Domeenivaidluste Komisjon</a>
-            </li>
-            <li class="">
-              <a href="/domeenivaidlused/domeenivaidluste-komisjoni-reglement" class="">Domeenivaidluste Komisjoni reglement</a>
-            </li>
-            <li class="">
-              <a href="/domeenivaidlused/domeenivaidluste-komisjoni-loivud" class="">Domeenivaidluste Komisjoni lõivud</a>
-            </li>
-            <li class="">
-              <a href="/domeenivaidlused/domeenivaidluste-lahendid" class="">Domeenivaidluste lahendid</a>
-            </li>
-          </ul>
-        </li>
-        <li class="">
-          <a href="/registripidajad" class="">Registripidajad</a>
-          <button type="button" class="btn btn--submenu-toggle" data-submenu-toggle=""><i class="icon angle down"></i></button>
-          <ul class="submenu invert">
-            <li class="">
-              <a href="/registripidajad/akrediteeritud-registripidajad" class="">Akrediteeritud .ee registripidajad</a>
-            </li>
-            <li class="">
-              <a href="/registripidajad/kuidas-saada-ee-akrediteeritud-registripidajaks" class="">Kuidas saada .ee akrediteeritud registripidajaks?</a>
-            </li>
-            <li class="">
-              <a href="/registripidajad/uus-registrisusteem" class="">.ee registrisüsteem</a>
-            </li>
-            <li class="">
-              <a href="/registripidajad/kuidas-saada-ee-elite-partneriks" class="">Kuidas saada .ee "Elite Partneriks"!</a>
-            </li>
-          </ul>
-        </li>
-        <li class="">
-          <a href="/dnssec" class="">DNSSec</a>
-          <button type="button" class="btn btn--submenu-toggle" data-submenu-toggle=""><i class="icon angle down"></i></button>
-          <ul class="submenu invert">
-            <li class="">
-              <a href="/dnssec/vaata-dnsseci-tutvustavat-videot" class="">Mis on DNSSec? Vaata videot!</a>
-            </li>
-            <li class="">
-              <a href="/dnssec/kuidas-turvalaiendus-toole-panna" class="">Kuidas turvalaiendus tööle panna?</a>
-            </li>
-            <li class="">
-              <a href="/dnssec/mis-on-dnsseci-taisteenus-ja-kuidas-seda-saab" class="">Mis on DNSSec-i täisteenus ja kuidas seda saab?</a>
-            </li>
-            <li class="">
-              <a href="/dnssec/kes-pakub-dnssec-taisteenust" class="">Kes pakub DNSSec täisteenust?</a>
-            </li>
-            <li class="">
-              <a href="/dnssec/kuidas-kontrollida-dnssec-i" class="">Kuidas kontrollida DNSSEC-i?</a>
-            </li>
-            <li class="">
-              <a href="/dnssec/dnssec-eisis" class="">DNSSEC EISis</a>
-            </li>
-            <li class="">
-              <a href="/dnssec/mis-on-dane" class="">Mis on DANE?</a>
-            </li>
-          </ul>
-        </li>
-        <li class="">
-          <a href="/eis" class="">Meist</a>
-        </li>
-        <li></li>
+    <nav class="menu-main">
+      <ul>
+        <li><a href="/"><span>Töölaud</span></a></li>
+        <li><a href="/companies"><span>Ettevõtted</span></a></li>
+        <li><a href="/whois"><span>Whois</span></a></li>
       </ul>
     </nav>
     <nav class="menu-portal">
