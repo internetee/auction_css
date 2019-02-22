@@ -1,22 +1,29 @@
-.steps {
+.steps-list {
   padding: 60px 0 20px 0;
   background: $grey2;
   margin-top: -40px;
-  &__list {
+  .items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-left: -40px;
     margin-bottom: -40px;
-    .steps__item {
+    .item {
       margin-left: 40px;
       margin-bottom: 40px;
     }
   }
-  &__item {
+  .item {
     flex: 0 1 190px;
     text-align: center;
     color: $grey;
+    &.active {
+      color: $black;
+      i {
+        color: $true-white;
+        background: $black;
+      }
+    }
     i {
       width: 60px;
       height: 60px;
@@ -27,27 +34,19 @@
       text-align: center;
       color: $true-white;
     }
-    &__title {
-      display: block;
+    p {
       margin-top: 10px;
       font-weight: 900;
       text-transform: uppercase;
       font-size: 14px;
       line-height: 20px;
     }
-    &--active {
-      color: $black;
-      i {
-        color: $true-white;
-        background: $black;
-      }
-    }
   }
   @include max-screen(767px) {
-    &__list {
+    .items {
       margin-left: -20px;
       margin-bottom: -20px;
-      .steps__item {
+      .item {
         margin-left: 20px;
         margin-bottom: 20px;
       }

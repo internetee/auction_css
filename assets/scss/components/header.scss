@@ -219,9 +219,6 @@
 .menu-language {
   padding: 15px 20px;
   margin: 0 auto;
-  &.registrar {
-    color: $orange;
-  }
   &:last-child {
     margin-right: 0;
   }
@@ -252,13 +249,6 @@
   display: flex;
   align-items: stretch;
   border-bottom: 1px solid #EAEBED;
-  &.registrar {
-    a {
-      &:hover {
-        color: $orange;
-      }
-    }
-  }
   a {
     display: flex;
     align-items: center;
@@ -297,17 +287,6 @@
   .u-site-search-open & {
     opacity: 0;
     visibility: hidden;
-  }
-  &.registrar {
-    & > ul {
-      & > li {
-        & > a{
-          &:hover {
-            background: $orange;
-          }
-        }
-      }
-    }
   }
   > ul {
     padding: 0;

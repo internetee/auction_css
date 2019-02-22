@@ -55,15 +55,7 @@
       <li><a href="_test-end.php">Success</a></li>
       <li><a href="_test-wrong.php">Wrong answer</a></li>
       <li><a href="_test-correct.php">Right answer</a></li>
-      <li><a href="_test-cancelled.php">Cencelled</a></li>
-    </ul>
-    <h3>Registrar</h3>
-    <ul>      
-      <li><a href="_registrar-help.php">Help</a></li>
-      <li><a href="_registrar-wrong-ip.php">Wrong IP</a></li>
-      <li><a href="_registrar-certification.php">Certification</a></li>
-      <li><a href="_registrar-why-certify.php">Why certify</a></li>
-      <li><a href="_registrar-questions.php">Questions</a></li>
+      <li><a href="_test-cancelled.php">Cancelled</a></li>
     </ul>
   </div><!-- #content -->
 </body>

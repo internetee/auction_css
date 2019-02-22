@@ -668,11 +668,10 @@
     &__body{
       display: flex;
       align-items: center;
-      padding: 20px;
-      margin: 0 -20px;
+      padding: 2.857rem;
+      margin: 0 -2.857rem;
       &>i{
-        position: relative;
-        left: 0;
+        left: 1rem;
         width: 20px;
         line-height: 20px;
         font-size: 20px;

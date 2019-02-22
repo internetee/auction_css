@@ -1,5 +1,5 @@
 <?php include('_header.php') ?>
-<div class="main-hero small green">
+<div class="main-hero green">
   <h1>Arvete ülevaade</h1>
   <a href="#" class="back-link">
     <i class="icon arrow left"></i>

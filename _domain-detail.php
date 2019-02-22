@@ -9,8 +9,8 @@
 <div class="page">
   <div class="page--content">
     <div class="u-container">
-      <div class="ui grid centered relaxed">
-        <div class="eight wide column aligned">
+      <div class="ui centered stackable relaxed grid">
+        <div class="sixteen wide mobile twelve wide tablet eight wide computer aligned column">
           <h2>Oksjoni detailid</h2>
           <table class="ui very table basic padded">
             <tbody>
@@ -39,28 +39,28 @@
         <h2>Oksjoni meelespea</h2>
       </div>
       <div class="ui grid centered relaxed">
-        <div class="four wide column">
+        <div class="sixteen wide mobile eight wide tablet four wide computer column">
           <h4 class="ui icon header">
             <i class="icon gavel"></i>
             Pimeoksjon
           </h4>
           <p>Kõik pakkumised on salajased ja EIS ei väljasta kellelegi teavet konkureerivate pakkumiste kohta (sh pakkumiste arvu ja suuruse kohta). Infot võitnud pakkumise kohta ei avaldata ka pärast oksjoni lõppu.</p>
         </div>
-        <div class="four wide column">
+        <div class="sixteen wide mobile eight wide tablet four wide computer column">
           <h4 class="ui icon header">
             <i class="icon trophy"></i>
             Oksjoni võitmine
           </h4>
           <p>Oksjoni võitja saab endale eelisõiguse vastav domeeninimi registreerida. Pärast pakkumise edukaks osutumist on võitjal aega 7 päeva arve tasumiseks. Arve tasumise järel väljastab EIS võitjale domeeni registreerimiseks vajaliku koodi. Domeeninime registreerimiseks tuleb võitjal pöörduda 14 päeva jooksul alates koodi väljastamisest endale sobiva .ee registripidaja poole. Domeeninime registreerimisel tuleb tasuda domeeni registreerimise tasu vastavalt valitud .ee registripidaja hinnakirjale.</p>
         </div>
-        <div class="four wide column">
+        <div class="sixteen wide mobile eight wide tablet four wide computer column">
           <h4 class="ui icon header">
             <i class="icon pencil alternate"></i>
             Pakkumise muutmine
           </h4>
           <p>Töölaualt saate oksjoni kestuse ajal muuta enda poolt tehtud pakkumist.</p>
         </div>
-        <div class="four wide column">
+        <div class="sixteen wide mobile eight wide tablet four wide computer column">
           <h4 class="ui icon header">
             <i class="icon times circle"></i>
             Pakkumise  tühistamine

@@ -18,7 +18,7 @@
     </div>
   </div>
   <div class="invoice">
-    <div class="ui container text">
+    <div class="ui container text cards">
       <div class="ui card fluid">
         <div class="content">
           <h2>Arve nr 3008398</h2>

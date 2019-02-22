@@ -12,8 +12,8 @@
       <div class="page--block--header">
         <h2>Arve nr 34834844</h2>
       </div>
-      <div class="ui stackable relaxed centered grid">
-        <div class="eight wide column">
+      <div class="ui centered stackable relaxed grid">
+        <div class="sixteen wide mobile twelve wide tablet eight wide computer aligned column">
           <h3>Makse detailid</h3>
           <table class="ui very basic table">
             <tbody>
@@ -39,35 +39,37 @@
       </div>
     </div>
   </div>
-  <div class="ui container text">
-    <div class="ui card fluid">
-      <div class="content">
-        <div class="payment-methods">
-          <div class="item">
-            <a href="#">
-              <img src="assets/images/banks/swed.png" alt="Swedbank">
-            </a>
-          </div>
-          <div class="item">
-            <a href="#">
-              <img src="assets/images/banks/seb.png" alt="SEB">
-            </a>
-          </div>
-          <div class="item">
-            <a href="#">
-              <img src="assets/images/banks/luminor.png" alt="Luminor">
-            </a>
-          </div>
-          <div class="item">
-            <a href="#">
-              <img src="assets/images/banks/lhv.png" alt="LHV">
-            </a>
-          </div>
-          <div class="item">
-            <a href="#">
-              <i class="icon credit card"></i>
-              Maksa krediitkaardiga
-            </a>
+  <div class="payment-methods">
+    <div class="ui container text cards">
+      <div class="ui card fluid">
+        <div class="content">
+          <div class="items">
+            <div class="item">
+              <a href="#">
+                <img src="assets/images/banks/swed.png" alt="Swedbank">
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                <img src="assets/images/banks/seb.png" alt="SEB">
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                <img src="assets/images/banks/luminor.png" alt="Luminor">
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                <img src="assets/images/banks/lhv.png" alt="LHV">
+              </a>
+            </div>
+            <div class="item">
+              <a href="#">
+                <i class="icon credit card"></i>
+                Maksa krediitkaardiga
+              </a>
+            </div>
           </div>
         </div>
       </div>
