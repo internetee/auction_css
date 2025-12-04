@@ -27,9 +27,9 @@
       <div class="column">
         <h3>Registripidajad</h3>
         <ul>
-          <li><a title="/registripidajad" href="/registripidajad/akrediteeritud-registripidajad" target="_self">Akrediteeritud registripidajate nimekiri</a></li>
-          <li><a title="/registripidajad/akrediteeritud-registripidajaks-saamine" href="/registripidajad/kuidas-saada-ee-akrediteeritud-registripidajaks" target="_self">Akrediteeritud registripidajaks saamine</a></li>
-          <li><a href="/registripidajad/kuidas-saada-ee-elite-partneriks" target="_self">Elite Partner programm</a></li>
+          <li><a title="/registripidajad" href="/registripidaja/akrediteeritud-registripidajad" target="_self">Akrediteeritud registripidajate nimekiri</a></li>
+          <li><a title="/registripidajad/akrediteeritud-registripidajaks-saamine" href="/registripidaja/kuidas-saada-ee-akrediteeritud-registripidajaks" target="_self">Akrediteeritud registripidajaks saamine</a></li>
+          <li><a href="/registripidaja/kuidas-saada-ee-elite-partneriks" target="_self">Elite Partner programm</a></li>
         </ul>
       </div>
       <div class="column">
